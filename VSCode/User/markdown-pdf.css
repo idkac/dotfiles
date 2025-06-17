@@ -1,0 +1,33 @@
+body, code {
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+code {
+  font-family: monospace;
+  background: #d0d0d0; /* Light gray for better visibility */
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.95em;
+  color: black !important;
+}
+
+pre {
+  padding: 10px;
+  border-left: 5px solid #444; /* Darker contrast for code blocks */
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: black !important;
+}
+
+pre code {
+  background: none;
+  color: black !important;
+  font-size: 1em;
+}
+
+.MathJax {
+  font-family: "Lucida Console", "Courier New", monospace !important;
+  font-size: 1.2em;
+  color: black;
+}
